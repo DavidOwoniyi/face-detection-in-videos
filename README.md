@@ -1,13 +1,28 @@
-This is a simple program that detects faces in videos.
+# Face Detection in videos 🤖
+<a class="header-badge" target="_blank" href="https://www.linkedin.com/in/david-owoniyi"><img src="https://img.shields.io/badge/style--5eba00.svg?label=LinkedIn&logo=linkedin&style=social"></a>
 
-It uses Python and OpenCV. 
-OpenCV is a library that contains pretrained models that can be used for face detection.
+This simple program is designed for detecting faces in videos using Machine Learning with Python and OpenCV.
 
-The model used here is called: Haar cascade classifier for face detection.
+### Features📍
+* Real-time face detection in video streams.
+* Draws bounding boxes around detected faces.
+* Processes video frame by frame for accurate detection.
 
-The first step is to import the OpenCV library and load the face detection model.
-We then gain access to our camera in which we'd be using for video capturing.
-We then use the model to detect faces in the video capture and then
-draw rectangles on the faces in real time.
+### Process Overview ♻️
+* Import the OpenCV library and load the Haar cascade classifiers for face detection.
+* Access the camera for video capturing.
+* Process the video frame by frame, detecting faces in real-time.
+* Draw bounding boxes around the detected faces.
 
-The video is worked on frame by frame, so this is how face detection is possible.
+### Key Skills 🔑
+* Python programming
+* Machine Learning
+* Video/image processing
+* Computer Vision
+
+### Dependencies 🔽
+* Python
+* OpenCV
+
+### Tools ⚙️
+* Jupyter notebook
